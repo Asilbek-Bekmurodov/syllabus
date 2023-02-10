@@ -1,0 +1,116 @@
+.wrapper {
+  background-color: #262a37;
+}
+.footer {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 5px;
+
+  .right {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    h2 {
+      font-family: Merriweather, sans-serif;
+      color: #fff;
+      font-size: 24px;
+      margin-bottom: 40px;
+      text-align: left;
+    }
+
+    .contact {
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+      }
+
+      .item {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        p {
+          font-size: 14px;
+          font-family: "Open Sans", sans-serif;
+          color: #aab6bd;
+        }
+        h4 {
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          color: #fff;
+          max-width: 220px;
+        }
+      }
+    }
+
+    .sections,
+    .resurs {
+      width: 220px;
+      .container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        p {
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          color: #fff;
+          text-align: left;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .left {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    img {
+      width: 178px;
+      height: 41px;
+      object-fit: cover;
+    }
+
+    .imgs {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      img {
+        background-color: #fff;
+        border-radius: 12px;
+        width: 154px;
+        height: 90px;
+        object-fit: contain;
+      }
+    }
+
+    .title {
+      font-family: "Open Sans", sans-serif;
+      color: #fff;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    .subtitle {
+      color: #aab6bd;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      text-align: left;
+    }
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Logo from "../../assets/images/logo.jpg";
+import Search from "../../assets/icons/search-icon.39584090 (1).svg";
+
 import cls from "./navbar.module.scss";
 
 const links = [
@@ -20,6 +22,7 @@ export class Navbar extends Component {
           </div>
           <div className={cls.search}>
             <input type="text" placeholder="Qidiruv" />
+            <img src={Search} alt="" />
           </div>
           <div className={cls.last}>
             <div className={cls.language}>O'zbekcha</div>
