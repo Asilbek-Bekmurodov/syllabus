@@ -1,0 +1,65 @@
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 84px;
+  @media (max-width: 460px) {
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 62px;
+    color: #000000;
+    margin-bottom: 20px;
+
+    @media (max-width: 690px) {
+      font-size: 37px;
+    }
+  }
+  // :global {
+  //   .slick-next:before,
+  //   .slick-prev:before {
+  //     color: #3548d4;
+  //     border-radius: 66px;
+  //     font-size: 30px;
+  //     border-radius: 66px;
+  //   }
+
+  //   .slick-next {
+  //     right: -20px;
+  //   }
+
+  //   @media (max-width: 600) {
+  //     .slick-track {
+  //       height: 128px;
+  //     }
+  //   }
+
+  //   .slick-prev {
+  //     z-index: 1;
+  //   }
+
+  //   .slick-track {
+  //     display: flex;
+  //     align-items: center;
+  //     gap: 10px;
+  //     img {
+  //       height: 100%;
+  //     }
+  //   }
+  // }
+
+  .img-container {
+    gap: 20px;
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+}

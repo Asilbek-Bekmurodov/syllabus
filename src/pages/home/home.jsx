@@ -5,6 +5,7 @@ import Navbar from "../../components/navbar";
 import cls from "./home.module.scss";
 import { MdCalendarToday } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
+import PhotoCarousel from "../../components/photo-carusel/photo-carousel";
 
 const cards = [
   {
@@ -168,6 +169,7 @@ export class Home extends Component {
             </div>
           </div>
         </section>
+        <PhotoCarousel />
         <Footer />
       </div>
     );
