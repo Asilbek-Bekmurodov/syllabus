@@ -1,10 +1,18 @@
-import React, { Component } from "react";
+import Footer from "../../components/footer/footer";
+import Navbar from "../../components/navbar/navbar";
 import cls from "./university.module.scss";
 
-export class University extends Component {
-  render() {
-    return <div className={cls.university}>University</div>;
-  }
+function university() {
+  return (
+    <div className={cls.university}>
+      <Navbar />
+      <br />
+      <br />
+      University page
+      <br />
+      <br />
+      <Footer />
+    </div>
+  );
 }
-
-export default University;
+export default university;

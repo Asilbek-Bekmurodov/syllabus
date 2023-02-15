@@ -47,133 +47,135 @@ const news = [
     title: "O‘zbekiston banklarida kreditlar ajratish ko‘paymoqda",
   },
 ];
-export class Home extends Component {
-  render() {
-    return (
-      <div className={cls.wrapper}>
-        <Navbar />
-        <h2>Yangi Sillabuslar</h2>
-        <section className={cls["new-syllabus"]}>
-          <div className={cls.container}>
-            <div className={cls.syllabus}>
-              <div className={cls.card}>
-                <h4 className={cls.title}>Java Dasturlash tili</h4>
-                <p>
-                  OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
-                </p>
-                <p>
-                  O'qituvchilar:<b>Zoirov U</b>
-                </p>
-                <p>
-                  Email:<b>zoirov.ulmas@gmail.com</b>
-                </p>
-                <p>
-                  Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
-                </p>
-                <p>
-                  Yo’nalish:<b>Axborot texnologiyalari</b>
-                </p>
-                <p>
-                  Kursi: <b>2</b>
-                </p>
 
-                <button className={cls.more}>
-                  Batafsil <RightArrow />
-                </button>
-              </div>
+function Home() {
+  return (
+    <div className={cls.wrapper}>
+      <Navbar />
+      <h2>Yangi Sillabuslar</h2>
+      <section className={cls["new-syllabus"]}>
+        <div className={cls.container}>
+          <div className={cls.syllabus}>
+            <div className={cls.card}>
+              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <p>
+                OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
+              </p>
+              <p>
+                O'qituvchilar:<b>Zoirov U</b>
+              </p>
+              <p>
+                Email:<b>zoirov.ulmas@gmail.com</b>
+              </p>
+              <p>
+                Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
+              </p>
+              <p>
+                Yo’nalish:<b>Axborot texnologiyalari</b>
+              </p>
+              <p>
+                Kursi: <b>2</b>
+              </p>
 
-              <div className={cls.card}>
-                <h4 className={cls.title}>Java Dasturlash tili</h4>
-                <p>
-                  OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
-                </p>
-                <p>
-                  O'qituvchilar:<b>Zoirov U</b>
-                </p>
-                <p>
-                  Email:<b>zoirov.ulmas@gmail.com</b>
-                </p>
-                <p>
-                  Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
-                </p>
-                <p>
-                  Yo’nalish:<b>Axborot texnologiyalari</b>
-                </p>
-                <p>
-                  Kursi: <b>2</b>
-                </p>
-
-                <button className={cls.more}>
-                  Batafsil <RightArrow />
-                </button>
-              </div>
-
-              <div className={cls.card}>
-                <h4 className={cls.title}>Java Dasturlash tili</h4>
-                <p>
-                  OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
-                </p>
-                <p>
-                  O'qituvchilar:<b>Zoirov U</b>
-                </p>
-                <p>
-                  Email:<b>zoirov.ulmas@gmail.com</b>
-                </p>
-                <p>
-                  Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
-                </p>
-                <p>
-                  Yo’nalish:<b>Axborot texnologiyalari</b>
-                </p>
-                <p>
-                  Kursi: <b>2</b>
-                </p>
-
-                <button className={cls.more}>
-                  Batafsil <RightArrow />
-                </button>
-              </div>
+              <button className={cls.more}>
+                Batafsil <RightArrow />
+              </button>
             </div>
-            <div className={cls.useful}>
-              <h3>Foydali Malumotlar</h3>
 
-              <div className={cls.cards}>
-                {cards.map(({ color, title }) => (
-                  <div style={{ backgroundColor: color }} className={cls.card}>
-                    <p>{title}</p>
-                  </div>
-                ))}
-              </div>
+            <div className={cls.card}>
+              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <p>
+                OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
+              </p>
+              <p>
+                O'qituvchilar:<b>Zoirov U</b>
+              </p>
+              <p>
+                Email:<b>zoirov.ulmas@gmail.com</b>
+              </p>
+              <p>
+                Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
+              </p>
+              <p>
+                Yo’nalish:<b>Axborot texnologiyalari</b>
+              </p>
+              <p>
+                Kursi: <b>2</b>
+              </p>
+
+              <button className={cls.more}>
+                Batafsil <RightArrow />
+              </button>
+            </div>
+
+            <div className={cls.card}>
+              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <p>
+                OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
+              </p>
+              <p>
+                O'qituvchilar:<b>Zoirov U</b>
+              </p>
+              <p>
+                Email:<b>zoirov.ulmas@gmail.com</b>
+              </p>
+              <p>
+                Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
+              </p>
+              <p>
+                Yo’nalish:<b>Axborot texnologiyalari</b>
+              </p>
+              <p>
+                Kursi: <b>2</b>
+              </p>
+
+              <button className={cls.more}>
+                Batafsil <RightArrow />
+              </button>
             </div>
           </div>
+          <div className={cls.useful}>
+            <h3>Foydali Malumotlar</h3>
 
-          <div className={cls.news}>
-            <h4>Dolzarb xabarlar</h4>
-            <div className={cls.container}>
-              {news.map(({ imgURL, title }) => (
-                <div className={cls.new}>
-                  <img src={imgURL} alt="" />
-                  <p className={cls.paragraph}>{title}</p>
-                  <div className={cls["bottom-info"]}>
-                    <p>
-                      <MdCalendarToday />
-                      10:39 | 22.01.2021
-                    </p>
-                    <p>
-                      <FaEye />
-                      1066
-                    </p>
-                  </div>
+            <div className={cls.cards}>
+              {cards.map(({ color, title }, idx) => (
+                <div
+                  key={idx}
+                  style={{ backgroundColor: color }}
+                  className={cls.card}
+                >
+                  <p>{title}</p>
                 </div>
               ))}
             </div>
           </div>
-        </section>
-        <PhotoCarousel />
-        <Footer />
-      </div>
-    );
-  }
-}
+        </div>
 
+        <div className={cls.news}>
+          <h4>Dolzarb xabarlar</h4>
+          <div className={cls.container}>
+            {news.map(({ imgURL, title }, idx) => (
+              <div key={idx} className={cls.new}>
+                <img src={imgURL} alt="" />
+                <p className={cls.paragraph}>{title}</p>
+                <div className={cls["bottom-info"]}>
+                  <p>
+                    <MdCalendarToday />
+                    10:39 | 22.01.2021
+                  </p>
+                  <p>
+                    <FaEye />
+                    1066
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <PhotoCarousel />
+      <Footer />
+    </div>
+  );
+}
 export default Home;
