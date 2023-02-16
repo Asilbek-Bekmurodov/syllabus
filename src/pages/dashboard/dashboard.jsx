@@ -3,6 +3,7 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { NavLink, Outlet, Route, Routes, useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
+import "./active.css";
 import cls from "./dashboard.module.scss";
 import sidebarData, { routeData } from "./sidebarData";
 function Dashboard() {
@@ -23,9 +24,7 @@ function Dashboard() {
             <li key={index} className={cls["nav-item"]}>
               <NavLink
                 to={item.path}
-                className={({ isActive }) =>
-                  [cls.nav_link, isActive ? cls.active : null].join(" ")
-                }
+                className={cls.nav_link}
                 children={<div className={cls.child}>{item.title}</div>}
               />
             </li>
