@@ -95,6 +95,9 @@
         font-size: 18px;
         color: #262a37;
         cursor: pointer;
+        &:hover {
+          color: #1181d9;
+        }
       }
     }
   }
