@@ -3,6 +3,8 @@ import Phone from "../../assets/icons/phone";
 import Logo from "../../assets/images/logo.jpg";
 import photo1 from "../../assets/images/ministry.f260f052.png";
 import photo2 from "../../assets/images/world-bank.a5a92951.png";
+import Email from "../../assets/icons/1.svg";
+import Adress from "../../assets/icons/2.svg";
 
 import cls from "./footer.module.scss";
 import Instagram from "../../assets/icons/instagram";
@@ -33,7 +35,7 @@ function Footer() {
               </div>
 
               <div className={cls.item}>
-                <Phone />
+                <img src={Email} alt="" />
                 <div className={cls.container}>
                   <p>Email</p>
                   <h4>zoirov.ulmas@gmail.com</h4>
@@ -41,7 +43,7 @@ function Footer() {
               </div>
 
               <div className={cls.item}>
-                <Phone />
+                <img src={Adress} alt="" />
                 <div className={cls.container}>
                   <p>Manzil</p>
                   <h4>Toshkent, CHILONZOR TUMANI, xiеbon ISLOM KARIMOV, 49</h4>
