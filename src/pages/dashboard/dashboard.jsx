@@ -3,7 +3,6 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { NavLink, Outlet, Route, Routes, useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
-import "./active.css";
 import cls from "./dashboard.module.scss";
 import sidebarData, { routeData } from "./sidebarData";
 function Dashboard() {

@@ -21,19 +21,16 @@
     grid-template-columns: 200px 1fr;
     ul {
       list-style: none;
-
       li {
         text-decoration: none;
         border-bottom: 1px solid #c2c2c2;
-        background: #e5e5e5;
+        background: #f1f0f0;
         .nav_link {
           text-decoration: none;
           color: #636468;
           .child {
             padding: 10px;
-          }
-          &.active {
-            background-color: red;
+            
           }
         }
       }
