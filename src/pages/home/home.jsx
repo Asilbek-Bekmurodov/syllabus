@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import RightArrow from "../../assets/icons/right-arrow";
 import Footer from "../../components/footer";
 import Navbar from "../../components/navbar";
@@ -56,6 +56,32 @@ function Home() {
       <section className={cls["new-syllabus"]}>
         <div className={cls.container}>
           <div className={cls.syllabus}>
+            <div className={cls.card}>
+              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <p>
+                OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
+              </p>
+              <p>
+                O'qituvchilar:<b>Zoirov U</b>
+              </p>
+              <p>
+                Email:<b>zoirov.ulmas@gmail.com</b>
+              </p>
+              <p>
+                Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
+              </p>
+              <p>
+                Yo’nalish:<b>Axborot texnologiyalari</b>
+              </p>
+              <p>
+                Kursi: <b>2</b>
+              </p>
+
+              <button className={cls.more}>
+                Batafsil <RightArrow />
+              </button>
+            </div>
+
             <div className={cls.card}>
               <h4 className={cls.title}>Java Dasturlash tili</h4>
               <p>

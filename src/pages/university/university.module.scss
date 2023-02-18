@@ -1,0 +1,120 @@
+.university {
+  .search-bar {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 60px;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-family: #000;
+      font-weight: 400;
+      font-size: 28px;
+      margin: 40px 0;
+      .icon {
+        cursor: pointer;
+      }
+    }
+    .form {
+      padding: 20px;
+      border: 1px solid #dbdcdd;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      .input {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 200px;
+
+        label {
+          font-size: 15px;
+          color: #262a37;
+          font-weight: 700;
+        }
+
+        input {
+          overflow: hidden;
+          cursor: text;
+          background-color: #fff;
+          border: 1px solid #74808c;
+          padding: 12px 13px 14px;
+          border-radius: 12px;
+        }
+      }
+
+      .submit {
+        color: #fff;
+        background-color: #262a37;
+        transition: all 0.2s;
+        border: 1px solid transparent;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+
+      .filter {
+        border: 1px solid transparent;
+        color: #262a37;
+      }
+
+      .filter,
+      .submit {
+        padding: 13px 25px;
+        border-radius: 12px;
+        height: 48px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 1;
+        cursor: pointer;
+      }
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 62px;
+
+      color: #000000;
+    }
+    .results {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .result {
+        border-radius: 12px;
+        padding: 20px;
+        background-color: #eef1f3;
+
+        h4 {
+          font-size: 16px;
+          font-weight: 700;
+          color: #262a37;
+          margin-bottom: 20px;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .subtitle {
+          color: #1181d9;
+          font-weight: 400;
+          font-size: 13px;
+
+          b {
+            font-weight: 600;
+            margin-right: 5px;
+            color: #74808c;
+          }
+        }
+      }
+    }
+  }
+}
