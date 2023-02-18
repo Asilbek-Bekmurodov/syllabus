@@ -1,0 +1,60 @@
+.search-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: #000;
+    font-weight: 400;
+    font-size: 28px;
+    margin: 40px 0;
+    .icon {
+      cursor: pointer;
+    }
+  }
+
+  .res {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 62px;
+    margin-bottom: 20px;
+  }
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .result {
+      border-radius: 12px;
+      padding: 20px;
+      background-color: #eef1f3;
+
+      h4 {
+        font-size: 16px;
+        font-weight: 700;
+        color: #262a37;
+        margin-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .subtitle {
+        color: #1181d9;
+        font-weight: 400;
+        font-size: 13px;
+
+        b {
+          font-weight: 600;
+          margin-right: 5px;
+          color: #74808c;
+        }
+      }
+    }
+  }
+}

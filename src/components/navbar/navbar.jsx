@@ -21,7 +21,7 @@ function Navbar() {
         </div>
         <div className={cls.search}>
           <input type="text" placeholder="Qidiruv" />
-          <img src={Search} alt="" />
+          <img onClick={() => navigate("/search")} src={Search} alt="" />
         </div>
         <div className={cls.last}>
           <div className={cls.language}>O'zbekcha</div>
