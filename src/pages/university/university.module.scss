@@ -72,6 +72,13 @@
         justify-content: center;
         line-height: 1;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        .icon {
+          height: 20px;
+          width: 20px;
+        }
       }
     }
     h3 {

@@ -3,7 +3,8 @@ import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import cls from "./university.module.scss";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-
+import { MdManageSearch } from "react-icons/md";
+import { CiFilter } from "react-icons/ci";
 const data = [
   {
     sillabus: "Java dasturlash tili",
@@ -61,16 +62,16 @@ function University() {
             <input placeholder="Fan nomini kiriting" type="text" />
           </div>
           <button className={cls.submit} onClick={(e) => e.preventDefault()}>
-            Qidiruv
+            <MdManageSearch size={24} /> Qidiruv
           </button>
           <button className={cls.filter} onClick={(e) => e.preventDefault()}>
-            Qidiruv filtri
+            <CiFilter size={24} /> Qidiruv filtri
           </button>
         </form>
         <h3>Qidiruv natijasi: 3</h3>
         <div className={cls.results}>
           {data.map(({ sillabus, otm, teacher, kafedra, email }) => (
-            <div className={cls.result}>
+            <div onClick={() => navigate("/dashboard")} className={cls.result}>
               <h4>{sillabus}</h4>
               <p className={cls.subtitle}>
                 <b>OTM :</b> {otm}

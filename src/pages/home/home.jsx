@@ -6,6 +6,7 @@ import cls from "./home.module.scss";
 import { MdCalendarToday } from "react-icons/md";
 import { FaEye } from "react-icons/fa";
 import PhotoCarousel from "../../components/photo-carusel/photo-carousel";
+import { useNavigate } from "react-router-dom";
 
 const cards = [
   {
@@ -49,6 +50,7 @@ const news = [
 ];
 
 function Home() {
+  const navigate = useNavigate();
   return (
     <div className={cls.wrapper}>
       <Navbar />
@@ -56,7 +58,7 @@ function Home() {
       <section className={cls["new-syllabus"]}>
         <div className={cls.container}>
           <div className={cls.syllabus}>
-            <div className={cls.card}>
+            <div onClick={() => navigate("/dashboard")} className={cls.card}>
               <h4 className={cls.title}>Java Dasturlash tili</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
@@ -82,7 +84,7 @@ function Home() {
               </button>
             </div>
 
-            <div className={cls.card}>
+            <div onClick={() => navigate("/dashboard")} className={cls.card}>
               <h4 className={cls.title}>Java Dasturlash tili</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
@@ -108,7 +110,7 @@ function Home() {
               </button>
             </div>
 
-            <div className={cls.card}>
+            <div onClick={() => navigate("/dashboard")} className={cls.card}>
               <h4 className={cls.title}>Java Dasturlash tili</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
@@ -134,7 +136,7 @@ function Home() {
               </button>
             </div>
 
-            <div className={cls.card}>
+            <div onClick={() => navigate("/dashboard")} className={cls.card}>
               <h4 className={cls.title}>Java Dasturlash tili</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
@@ -168,6 +170,7 @@ function Home() {
                 <div
                   key={idx}
                   style={{ backgroundColor: color }}
+                  onClick={() => navigate("/dashboard")}
                   className={cls.card}
                 >
                   <p>{title}</p>

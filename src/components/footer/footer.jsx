@@ -52,12 +52,12 @@ function Footer() {
           <div className={cls.sections}>
             <h2>Bo'limlar</h2>
             <div className={cls.container}>
-              {sections.map((section) => (
-                <p>{section}</p>
+              {sections.map((section, idx) => (
+                <p key={idx}>{section}</p>
               ))}
             </div>
           </div>
-          <div className={cls.resurs}>  
+          <div className={cls.resurs}>
             <h2>Resurslar</h2>
             <div className={cls.container}>
               {resurs.map((section) => (

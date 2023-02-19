@@ -29,8 +29,12 @@ function Search() {
         </h3>
         <h3 className={cls.res}>Qidiruv natijasi: 3</h3>
         <div className={cls.results}>
-          {data.map(({ sillabus, otm, teacher, kafedra, email }) => (
-            <div className={cls.result}>
+          {data.map(({ sillabus, otm, teacher, kafedra, email }, idx) => (
+            <div
+              key={idx}
+              onClick={() => navigate("/dashboard")}
+              className={cls.result}
+            >
               <h4>{sillabus}</h4>
               <p className={cls.subtitle}>
                 <b>OTM :</b> {otm}
