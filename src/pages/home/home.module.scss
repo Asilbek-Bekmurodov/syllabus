@@ -6,29 +6,34 @@
     font-size: 32px;
     font-family: "Merriweather", sans-serif;
     font-weight: 400;
+    padding: 0 30px;
   }
 }
 
 .new-syllabus {
   max-width: 1200px;
-  //   background-color: red;
-
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 320px;
+  gap: 20px;
+  padding: 0 30px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+  }
 
   .container {
-    // background-color: gray;
     display: flex;
     flex-direction: column;
     .syllabus {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 72px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      @media (max-width: 900px) {
+        grid-template-columns: 1fr;
+      }
 
       .card {
-        min-width: 35%;
         border-radius: 12px;
         padding: 20px;
         background-color: #eef1f3;
@@ -84,12 +89,11 @@
       }
 
       .cards {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 20px;
-        flex-wrap: wrap;
         .card {
           padding: 30px;
-          width: 200px;
           height: 200px;
           cursor: pointer;
           p {
@@ -108,6 +112,12 @@
       margin-bottom: 10px;
     }
     .container {
+      @media (max-width: 900px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        height: auto;
+      }
       display: flex;
       flex-direction: column;
       gap: 15px;

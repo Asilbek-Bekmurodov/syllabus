@@ -8,7 +8,7 @@ import cls from "./footer.module.scss";
 import Instagram from "../../assets/icons/instagram";
 import Facebook from "../../assets/icons/facebook";
 
-const sections = ["Muassalar", "Jurnallar", "Mualliflar"];
+const sections = ["Universitetlar", "Ommabop sillabuslar", "Statistika"];
 const resurs = [
   "Adabiyotlar",
   "Maqolalar",
@@ -28,7 +28,7 @@ function Footer() {
                 <Phone />
                 <div className={cls.container}>
                   <p>Telefon</p>
-                  <h4>(+998 71) 246-10-81</h4>
+                  <h4>(+998 97) 5187161</h4>
                 </div>
               </div>
 
@@ -36,7 +36,7 @@ function Footer() {
                 <Phone />
                 <div className={cls.container}>
                   <p>Email</p>
-                  <h4>press@edu.uz</h4>
+                  <h4>zoirov.ulmas@gmail.com</h4>
                 </div>
               </div>
 
@@ -44,7 +44,7 @@ function Footer() {
                 <Phone />
                 <div className={cls.container}>
                   <p>Manzil</p>
-                  <h4>100095, Toshkent shahri, 2-Chimboy ko'chasi, 96-uy</h4>
+                  <h4>Toshkent, CHILONZOR TUMANI, xiеbon ISLOM KARIMOV, 49</h4>
                 </div>
               </div>
             </div>
@@ -71,8 +71,7 @@ function Footer() {
         <div className={cls.left}>
           <img src={Logo} alt="" />
           <p className={cls.title}>
-            Oliy ta'lim muassasalarining yagona elektron kutubxona axborot
-            tizimi
+            Oliy ta'lim muassasalarining yagona elektron sillabus axborot tizimi
           </p>
           <div className={cls.imgs}>
             <img src={photo1} alt="" />
@@ -83,8 +82,8 @@ function Footer() {
             <Facebook />
           </div>
           <p className={cls.subtitle}>
-            “Unilibrary” © 2022. O‘zbekiston Respublikasi Oliy va o‘rta maxsus
-            ta'lim vazirligi
+            “Syllabus” © 2023. O‘zbekiston Respublikasi Oliy talim fan va
+            Innovatsiyalar vazirligi
           </p>
         </div>
       </div>

@@ -1,7 +1,8 @@
 .wrapper {
   max-width: 1200px;
   margin: auto;
-  padding-bottom: 84px;
+  padding: 0 30px 84px;
+
   @media (max-width: 460px) {
     padding-top: 24px;
     padding-bottom: 0;
@@ -20,38 +21,15 @@
       font-size: 37px;
     }
   }
-  // :global {
-  //   .slick-next:before,
-  //   .slick-prev:before {
-  //     color: #3548d4;
-  //     border-radius: 66px;
-  //     font-size: 30px;
-  //     border-radius: 66px;
-  //   }
-
-  //   .slick-next {
-  //     right: -20px;
-  //   }
-
-  //   @media (max-width: 600) {
-  //     .slick-track {
-  //       height: 128px;
-  //     }
-  //   }
-
-  //   .slick-prev {
-  //     z-index: 1;
-  //   }
-
-  //   .slick-track {
-  //     display: flex;
-  //     align-items: center;
-  //     gap: 10px;
-  //     img {
-  //       height: 100%;
-  //     }
-  //   }
-  // }
+  :global {
+    .slick-next {
+      display: none;
+    }
+    .slick-next {
+      display: none;
+      right: 0px;
+    }
+  }
 
   .img-container {
     gap: 20px;

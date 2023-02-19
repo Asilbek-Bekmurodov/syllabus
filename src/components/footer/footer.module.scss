@@ -6,11 +6,15 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  padding: 60px 5px;
+  padding: 60px 30px;
+  @media (max-width: 1024px) {
+    // flex-direction: column;
+    // align-items: center;
+    display: block;
+  }
 
   .right {
     display: flex;
-    gap: 40px;
     justify-content: space-between;
     h2 {
       font-family: Merriweather, sans-serif;
@@ -74,6 +78,11 @@
     flex-direction: column;
     align-items: start;
     gap: 10px;
+    @media (max-width: 1024px) {
+      align-items: center;
+      width: 100%;
+      margin-top: 20px;
+    }
     img {
       width: 178px;
       height: 41px;

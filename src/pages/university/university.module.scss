@@ -2,7 +2,7 @@
   .search-bar {
     max-width: 1200px;
     margin: auto;
-    padding-bottom: 60px;
+    padding: 0 30px 60px;
 
     .title {
       display: flex;
@@ -21,9 +21,14 @@
       border: 1px solid #dbdcdd;
       display: flex;
       align-items: center;
+      flex-wrap: wrap;
       justify-content: space-between;
       border-radius: 12px;
       margin-bottom: 20px;
+      @media (max-width: 900px) {
+        justify-content: center;
+        gap: 15px;
+      }
       .input {
         display: flex;
         flex-direction: column;

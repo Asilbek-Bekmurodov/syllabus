@@ -8,6 +8,7 @@
     font-weight: 400;
     font-size: 28px;
     margin: 40px auto;
+    padding: 0 30px;
     .icon {
       cursor: pointer;
     }
@@ -15,7 +16,7 @@
   .sidebar-container {
     max-width: 1200px;
     margin: auto;
-    padding: 0 0 50px 0;
+    padding: 0 30px 50px;
     display: grid;
     grid-template-columns: 200px 1fr;
     ul {
@@ -42,7 +43,7 @@
       padding: 10px 40px;
       .info {
         .info_title {
-            margin-bottom: 15px;
+          margin-bottom: 15px;
         }
 
         .paragraph {
