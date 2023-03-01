@@ -6,9 +6,8 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const links = [
   { title: "Universitet", path: "/university" },
-  { title: "Ommabop sillabuslar", path: "/" },
-  { title: "Statistika", path: "/" },
-  { title: "Universitetlar reytingi", path: "/" },
+  { title: " Talim Statistika", path: "/" },
+  { title: " Mahalliy Universitetlar reytingi", path: "/" },
   { title: "Biz haqimizda", path: "/" },
 ];
 

@@ -54,7 +54,7 @@ function Home() {
   return (
     <div className={cls.wrapper}>
       <Navbar />
-      <h2>Yangi Sillabuslar</h2>
+      <h2>Ommabop sillabuslar</h2>
       <section className={cls["new-syllabus"]}>
         <div className={cls.container}>
           <div className={cls.syllabus}>
