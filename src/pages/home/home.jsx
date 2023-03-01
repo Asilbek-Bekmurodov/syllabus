@@ -85,7 +85,7 @@ function Home() {
             </div>
 
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <h4 className={cls.title}>Java Dasturlash tili 222</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
