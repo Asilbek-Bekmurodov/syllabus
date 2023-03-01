@@ -11,19 +11,19 @@ import { useNavigate } from "react-router-dom";
 const cards = [
   {
     color: "#90ABE4",
-    title: "Huquqshunos Xushnudbek Xudoyberdiyevning Telegram kanali",
+    title: "Xalqaro Talim Tizimi",
   },
   {
     color: "#017DCE",
-    title: "Zakovat- Qiziqarli savollar",
+    title: "QS RANKING",
   },
   {
     color: "#870000",
-    title: "Zakovat Quiz",
+    title: "THE RANKING",
   },
   {
     color: "#C7074F",
-    title: "Koronovirus info",
+    title: "ARWU RANKING",
   },
 ];
 
@@ -67,7 +67,7 @@ function Home() {
                 O'qituvchilar:<b>Zoirov U</b>
               </p>
               <p>
-                Email:<b>zoirov.ulmas@gmail.com</b>
+                Email:<b>zoirov.ulmas@tsue.uz</b>
               </p>
               <p>
                 Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
@@ -76,7 +76,10 @@ function Home() {
                 Yo’nalish:<b>Axborot texnologiyalari</b>
               </p>
               <p>
-                Kursi: <b>2</b>
+                Kursi: <b>3</b>
+              </p>
+              <p>
+               Sillabus Tili <b>O'zbekcha</b> 
               </p>
 
               <button className={cls.more}>
@@ -85,15 +88,15 @@ function Home() {
             </div>
 
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Java Dasturlash tili 222</h4>
+              <h4 className={cls.title}>Operatsion Tizimlar</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
               <p>
-                O'qituvchilar:<b>Zoirov U</b>
+                O'qituvchilar:<b>Abdulaxatov M</b>
               </p>
               <p>
-                Email:<b>zoirov.ulmas@gmail.com</b>
+                Email:<b>abdulaxatov.muzzafar@tsue.uz</b>
               </p>
               <p>
                 Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
@@ -102,7 +105,11 @@ function Home() {
                 Yo’nalish:<b>Axborot texnologiyalari</b>
               </p>
               <p>
-                Kursi: <b>2</b>
+                Kursi: <b>3</b>
+              </p>
+
+              <p>
+               Sillabus Tili <b>O'zbekcha</b> 
               </p>
 
               <button className={cls.more}>
@@ -111,24 +118,27 @@ function Home() {
             </div>
 
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <h4 className={cls.title}>Elektrol hukumat </h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
               <p>
-                O'qituvchilar:<b>Zoirov U</b>
+                O'qituvchilar:<b>Rajabov  Sh</b>
               </p>
               <p>
-                Email:<b>zoirov.ulmas@gmail.com</b>
+                Email:<b>rajabov.sherzod@gmail.com</b>
               </p>
               <p>
                 Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
               </p>
               <p>
-                Yo’nalish:<b>Axborot texnologiyalari</b>
+                Yo’nalish:<b>Raqamli Iqtisotiyot</b>
               </p>
               <p>
-                Kursi: <b>2</b>
+                Kursi: <b>3</b>
+              </p>
+              <p>
+               Sillabus Tili <b>Ingliz</b> 
               </p>
 
               <button className={cls.more}>
@@ -137,24 +147,27 @@ function Home() {
             </div>
 
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <h4 className={cls.title}>Sanoat 4.0 va ijtimoiy soha 5.0</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
               <p>
-                O'qituvchilar:<b>Zoirov U</b>
+                O'qituvchilar:<b>Abdullayev M</b>
               </p>
               <p>
-                Email:<b>zoirov.ulmas@gmail.com</b>
+                Email:<b>abdullayev.munis@tsue.uz</b>
               </p>
               <p>
                 Kafedra:<b>Raqamli iqtisodiyot va Axborot Texnologiyalari</b>
               </p>
               <p>
-                Yo’nalish:<b>Axborot texnologiyalari</b>
+                Yo’nalish:<b>Raqamli iqtisodiyot</b>
               </p>
               <p>
-                Kursi: <b>2</b>
+                Kursi: <b>4</b>
+              </p>
+              <p>
+               Sillabus Tili <b>O'zbekcha</b> 
               </p>
 
               <button className={cls.more}>
@@ -181,7 +194,7 @@ function Home() {
         </div>
 
         <div className={cls.news}>
-          <h4>Dolzarb xabarlar</h4>
+          <h4>Talimga oid Yangiliklar</h4>
           <div className={cls.container}>
             {news.map(({ imgURL, title }, idx) => (
               <div key={idx} className={cls.new}>
