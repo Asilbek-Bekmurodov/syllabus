@@ -1,6 +1,6 @@
 .sidebar {
   flex-shrink: 0;
-  background-color: rgb(148, 146, 146);
+  background-color: #f1f0f0;
   height: 100%;
   overflow: auto;
 }
@@ -18,7 +18,6 @@
   display: flex;
   font-size: 1.2em;
   justify-content: space-between;
-
 }
 .sidebar-title span .btn {
   display: inline-block;
