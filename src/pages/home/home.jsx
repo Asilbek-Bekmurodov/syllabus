@@ -59,7 +59,7 @@ function Home() {
         <div className={cls.container}>
           <div className={cls.syllabus}>
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Java Dasturlash tili</h4>
+              <h4 className={cls.title}>Java Dasturlash tilieeee</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
@@ -88,7 +88,7 @@ function Home() {
             </div>
 
             <div onClick={() => navigate("/dashboard")} className={cls.card}>
-              <h4 className={cls.title}>Operatsion Tizimlar</h4>
+              <h4 className={cls.title}>Operatsion Tizimlarrrrrrrr</h4>
               <p>
                 OTM:<b>Toshkent Davlat Iqtisodiyot Universiteti</b>
               </p>
