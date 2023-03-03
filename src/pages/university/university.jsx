@@ -5,6 +5,7 @@ import cls from "./university.module.scss";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { MdManageSearch } from "react-icons/md";
 import { CiFilter } from "react-icons/ci";
+
 const data = [
   {
     sillabus: "Java dasturlash tili",

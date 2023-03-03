@@ -18,9 +18,9 @@
     margin: auto;
     padding: 0 30px 50px;
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 260px 1fr;
     ul {
-      list-style: none;
+      list-style: none; 
       li {
         text-decoration: none;
         border-bottom: 1px solid #c2c2c2;
@@ -30,7 +30,6 @@
           color: #636468;
           .child {
             padding: 10px;
-            
           }
         }
       }

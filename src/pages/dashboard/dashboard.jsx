@@ -1,10 +1,11 @@
 import React from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import { NavLink, Outlet, Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
+import Sidebar from "./components/sidebar";
 import cls from "./dashboard.module.scss";
-import sidebarData, { routeData } from "./sidebarData";
+import  { routeData } from "./sidebarData";
 function Dashboard() {
   const navigate = useNavigate();
   return (
@@ -18,7 +19,7 @@ function Dashboard() {
         Work with BigData in Cloud
       </h3>
       <div className={cls["sidebar-container"]}>
-        <ul className={cls.nav_list}>
+        {/* <ul className={cls.nav_list}>
           {sidebarData.map((item, index) => (
             <li key={index} className={cls["nav-item"]}>
               <NavLink
@@ -28,8 +29,8 @@ function Dashboard() {
               />
             </li>
           ))}
-        </ul>
-        <Outlet />
+        </ul> */}
+        <Sidebar />
         <div className={cls["info-wrapper"]}>
           <Routes>
             {routeData.map(({ title, path }) => (
