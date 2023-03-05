@@ -5,7 +5,7 @@ import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import Sidebar from "./components/sidebar";
 import cls from "./dashboard.module.scss";
-import  { routeData } from "./sidebarData";
+import { routeData } from "./sidebarData";
 function Dashboard() {
   const navigate = useNavigate();
   return (
@@ -33,25 +33,8 @@ function Dashboard() {
         <Sidebar />
         <div className={cls["info-wrapper"]}>
           <Routes>
-            {routeData.map(({ title, path }) => (
-              <Route
-                path={path}
-                element={
-                  <div className={cls.info}>
-                    <h2 className={cls.info_title}>{title}</h2>
-                    <p className={cls.paragraph}>
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Iusto modi cumque ipsa sunt molestiae tempora quas
-                      temporibus at nam itaque repellat consectetur tenetur
-                      <br />
-                      <br />
-                      officiis cum fuga voluptatibus obcaecati neque adipisci,
-                      labore architecto. Sit, earum perspiciatis! Velit dolore
-                      totam nesciunt cupiditate
-                    </p>
-                  </div>
-                }
-              />
+            {routeData.map(({ content, path }) => (
+              <Route path={path} element={content} />
             ))}
           </Routes>
         </div>

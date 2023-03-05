@@ -1,6 +1,8 @@
+import Video from "./contents/video";
+
 const sidebarData = [
-  {title: "Kurs haqida", path: "about-course"},
-  {title: "Tarkibiy tuzilish",path: "structure"},
+  { title: "Kurs haqida", path: "about-course" },
+  { title: "Tarkibiy tuzilish", path: "structure" },
   { title: "Baxolash", path: "baxolash" },
   {
     title: "Resurslar",
@@ -41,13 +43,13 @@ const sidebarData = [
 export default sidebarData;
 
 export const routeData = [
-  { title: "Kurs haqida", path: "about-course" },
-  { title: "Tarkibiy tuzilishi", path: "structure" },
-  { title: "Baholash", path: "baxolash" },
-  { title: "Test", path: "test" },
-  { title: "Mustaqil ish", path: "mustaqil-ish" },
-  { title: "Internet-resurslar", path: "internet-resusrlar" },
-  { title: "Adabiyotlar", path: "adabiyotlar" },
-  { title: "Video", path: "video" },
-  { title: "Maruza", path: "maruza" },
+  { content: "Kurs haqida", path: "about-course" },
+  { content: "Tarkibiy tuzilishi", path: "structure" },
+  { content: "Baholash", path: "baxolash" },
+  { content: "Test", path: "test" },
+  { content: "Mustaqil ish", path: "mustaqil-ish" },
+  { content: "Internet-resurslar", path: "internet-resusrlar" },
+  { content: "Adabiyotlar", path: "adabiyotlar" },
+  { content: <Video />, path: "video" },
+  { content: "Maruza", path: "maruza" },
 ];
