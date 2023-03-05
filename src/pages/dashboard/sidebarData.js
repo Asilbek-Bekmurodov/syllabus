@@ -31,7 +31,7 @@ const sidebarData = [
         path: "mustaqil-ish",
       },
       {
-        title: "testlar",
+        title: "Testlar",
         path: "test",
       },
     ],
