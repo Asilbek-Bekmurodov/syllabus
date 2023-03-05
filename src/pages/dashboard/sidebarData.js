@@ -1,6 +1,35 @@
 const sidebarData = [
-  {title: "Kurs haqida", path: "about-course"},
-  {title: "Tarkibiy tuzilish",path: "structure"},
+  {
+    title: "Menu",
+    childrens: [
+      {
+        title: "Kurs haqida",
+        path: "about-course",
+      },
+      {
+        title: "Tarkibiy tuzilish",
+        path: "structure",
+      },
+      {
+        title: "Contact",
+        childrens: [
+          {
+            title: "Facebook",
+            icon: "bi-facebook",
+            path: "facebook",
+          },
+          {
+            title: "Twitter",
+            icon: "bi-twitter",
+          },
+          {
+            title: "Instagram",
+            icon: "bi-instagram",
+          },
+        ],
+      },
+    ],
+  },
   { title: "Baxolash", path: "baxolash" },
   {
     title: "Resurslar",
