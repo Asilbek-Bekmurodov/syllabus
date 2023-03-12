@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { Route, Routes, useNavigate } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
 import Sidebar from "./components/sidebar";
 import cls from "./dashboard.module.scss";
-import { routeData } from "./sidebarData";
+import { routeData } from "./routeData";
 function Dashboard() {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className={cls.wrapper}>
       <Navbar />
@@ -33,8 +36,8 @@ function Dashboard() {
         <Sidebar />
         <div className={cls["info-wrapper"]}>
           <Routes>
-            {routeData.map(({ content, path }) => (
-              <Route path={path} element={content} />
+            {routeData.map(({ content, path }, idx) => (
+              <Route key={idx} path={path} element={content} />
             ))}
           </Routes>
         </div>

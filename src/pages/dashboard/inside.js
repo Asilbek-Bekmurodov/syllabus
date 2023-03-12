@@ -1,0 +1,50 @@
+const sideData = {
+  java: [
+    { title: "Kurs haqida", path: "about-course" },
+    { title: "Tarkibiy tuzilish", path: "structure" },
+    { title: "Baxolash", path: "baxolash" },
+    {title: "ASilbek ", path: "asilbek"},
+    {
+      title: "Resurslar",
+      childrens: [
+        {
+          title: "Maruza",
+          path: "maruza",
+        },
+        {
+          title: "Video",
+          path: "video",
+        },
+        {
+          title: "Adabiyotlar",
+          path: "adabiyotlar",
+        },
+        {
+          title: "Internet resurslari",
+          path: "internet-resusrlar",
+        },
+      ],
+    },
+    {
+      title: "Kurs topshiriqlari",
+      childrens: [
+        {
+          title: "Mustaqil ish mavzulari",
+          path: "mustaqil-ish",
+        },
+        {
+          title: "Testlar",
+          path: "test",
+        },
+      ],
+    },
+  ],
+
+  operation: [
+    { title: "Kurs haqida", path: "about-course" },
+    { title: "Tarkibiy tuzilish", path: "structure" },
+    { title: "Baxolash", path: "baxolash" },
+  ],
+};
+
+export default sideData;
