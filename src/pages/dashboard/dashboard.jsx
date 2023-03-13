@@ -1,15 +1,19 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineArrowLeft } from "react-icons/ai";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes, useNavigate, useParams } from "react-router-dom";
 import Footer from "../../components/footer/footer";
 import Navbar from "../../components/navbar/navbar";
+import syllabusData from "../home/inside";
 import Sidebar from "./components/sidebar";
 import cls from "./dashboard.module.scss";
 import { routeData } from "./routeData";
 function Dashboard() {
   const navigate = useNavigate();
+  const [title, setTitle] = useState();
+  const { type } = useParams("");
   useEffect(() => {
     window.scrollTo(0, 0);
+    syllabusData.filter((item) => item.path === type && setTitle(item.title));
   }, []);
   return (
     <div className={cls.wrapper}>
@@ -19,7 +23,7 @@ function Dashboard() {
           onClick={() => navigate("/")}
           className={cls.icon}
         />{" "}
-        Work with BigData in Cloud
+        Work with {title} in Cloud
       </h3>
       <div className={cls["sidebar-container"]}>
         {/* <ul className={cls.nav_list}>
