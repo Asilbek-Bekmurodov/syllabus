@@ -1,9 +1,8 @@
  const sideData = {
   java: [
-    { title: "Kurs haqida", path: "about-course" },
-    { title: "Asilbek", path: "asilbek" },
-    { title: "Tarkibiy tuzilish", path: "structure" },
-    { title: "Baxolash", path: "baxolash" },
+    { title: "Kurs haqida", path: "about-course-java" },
+    { title: "Tarkibiy tuzilish", path: "structure-java" },
+    { title: "Baxolash", path: "baxolash-java" },
     {
       title: "Resurslar",
       childrens: [
