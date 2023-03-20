@@ -8,7 +8,7 @@
       childrens: [
         {
           title: "Maruza",
-          path: "maruza-javaa",
+          path: "maruza-java",
         },
         {
           title: "Video",

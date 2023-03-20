@@ -6,7 +6,7 @@ import Lecture from "./contents/java/lecture";
 import Literature from "./contents/java/literature";
 import Structure from "./contents/java/stucture";
 import Test from "./contents/java/Test";
-import Video from "./contents/video";
+import Video from "./contents/java/video";
 
 export const routeData = [
   { content: <AboutCourse/>, path: "about-course-java" },
