@@ -1,15 +1,22 @@
-import AboutCourse from "./contents/about-course/about-course";
+import AboutCourse from "./contents/java/about-course";
+import Assessment from "./contents/java/assessment";
+import Independent from "./contents/java/Independent";
+import Internet from "./contents/java/internet";
+import Lecture from "./contents/java/lecture";
+import Literature from "./contents/java/literature";
+import Structure from "./contents/java/stucture";
+import Test from "./contents/java/Test";
 import Video from "./contents/video";
 
 export const routeData = [
-  { content: <AboutCourse />, path: "about-course" },
-  { content: "Tarkibiy tuzilishi", path: "structure" },
-  { content: "Baholash", path: "baxolash" },
-  { content: "Test", path: "test" },
-  { content: "Mustaqil ish", path: "mustaqil-ish" },
-  { content: "Internet-resurslar", path: "internet-resusrlar" },
-  { content: "Adabiyotlar", path: "adabiyotlar" },
-  { content: <Video />, path: "video" },
-  { content: "Maruza", path: "maruza" },
-  { content: <Video />, path: "asilbek" },
+  { content: <AboutCourse/>, path: "about-course-java" },
+  { content: <Structure/>, path: "structure-java" },
+  { content: <Assessment/>, path: "baxolash-java" },
+  { content: <Test/>, path: "test-java" },
+  { content: <Independent/>, path: "mustaqil-ish-java" },
+  { content: <Internet/>, path: "internet-resusrlar-java" },
+  { content: <Literature/>, path: "adabiyotlar-java" },
+  { content: <Video />, path: "video-java" },
+  { content: <Lecture/>, path: "maruza-java" },
+
 ];

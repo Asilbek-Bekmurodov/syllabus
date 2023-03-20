@@ -1,6 +1,6 @@
 // qisqa kalit rfce
 
-import cls from "./about-course.module.scss";
+import cls from "./styles.module.scss";
 // style ulash
 
 function AboutCourse() {

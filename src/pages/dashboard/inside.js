@@ -8,19 +8,19 @@
       childrens: [
         {
           title: "Maruza",
-          path: "maruza",
+          path: "maruza-javaa",
         },
         {
           title: "Video",
-          path: "video",
+          path: "video-java",
         },
         {
           title: "Adabiyotlar",
-          path: "adabiyotlar",
+          path: "adabiyotlar-java",
         },
         {
           title: "Internet resurslari",
-          path: "internet-resusrlar",
+          path: "internet-resusrlar-java",
         },
       ],
     },
@@ -29,11 +29,11 @@
       childrens: [
         {
           title: "Mustaqil ish mavzulari",
-          path: "mustaqil-ish",
+          path: "mustaqil-ish-java",
         },
         {
           title: "Testlar",
-          path: "test",
+          path: "test-java",
         },
       ],
     },
