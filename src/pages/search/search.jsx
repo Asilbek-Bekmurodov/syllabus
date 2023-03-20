@@ -11,6 +11,7 @@ const data = [
     teacher: "Zoirov U",
     email: "zoirov.ulmas@gmail.com",
     kafedra: "Raqamli iqisodiyot",
+    path: "java",
   },
 ];
 function Search() {
@@ -29,10 +30,10 @@ function Search() {
         </h3>
         <h3 className={cls.res}>Qidiruv natijasi: 3</h3>
         <div className={cls.results}>
-          {data.map(({ sillabus, otm, teacher, kafedra, email }, idx) => (
+          {data.map(({ sillabus, otm, teacher, kafedra, email, path }, idx) => (
             <div
               key={idx}
-              onClick={() => navigate("/dashboard")}
+              onClick={() => navigate(`/dashboard/${path}`)}
               className={cls.result}
             >
               <h4>{sillabus}</h4>

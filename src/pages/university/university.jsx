@@ -13,6 +13,7 @@ const data = [
     teacher: "Zoirov U",
     email: "zoirov.ulmas@gmail.com",
     kafedra: "Raqamli iqisodiyot",
+    path: "java",
   },
   {
     sillabus: "Java dasturlash tili",
@@ -20,6 +21,7 @@ const data = [
     teacher: "Zoirov U",
     email: "zoirov.ulmas@gmail.com",
     kafedra: "Raqamli iqisodiyot",
+    path: "java",
   },
   {
     sillabus: "Java dasturlash tili",
@@ -27,6 +29,7 @@ const data = [
     teacher: "Zoirov U",
     email: "zoirov.ulmas@gmail.com",
     kafedra: "Raqamli iqisodiyot",
+    path: "java",
   },
 ];
 
@@ -71,8 +74,11 @@ function University() {
         </form>
         <h3>Qidiruv natijasi: 3</h3>
         <div className={cls.results}>
-          {data.map(({ sillabus, otm, teacher, kafedra, email }) => (
-            <div onClick={() => navigate("/dashboard")} className={cls.result}>
+          {data.map(({ sillabus, otm, teacher, kafedra, email, path }) => (
+            <div
+              onClick={() => navigate(`/dashboard/${path}`)}
+              className={cls.result}
+            >
               <h4>{sillabus}</h4>
               <p className={cls.subtitle}>
                 <b>OTM :</b> {otm}

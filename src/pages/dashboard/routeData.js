@@ -1,7 +1,8 @@
+import AboutCourse from "./contents/about-course/about-course";
 import Video from "./contents/video";
 
 export const routeData = [
-  { content: "Kurs haqida", path: "about-course" },
+  { content: <AboutCourse />, path: "about-course" },
   { content: "Tarkibiy tuzilishi", path: "structure" },
   { content: "Baholash", path: "baxolash" },
   { content: "Test", path: "test" },
@@ -10,4 +11,5 @@ export const routeData = [
   { content: "Adabiyotlar", path: "adabiyotlar" },
   { content: <Video />, path: "video" },
   { content: "Maruza", path: "maruza" },
+  { content: <Video />, path: "asilbek" },
 ];
