@@ -2,7 +2,7 @@ const syllabusData = [
   {
     title: "Java Dasturlash tili",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Zoirov U",
+    teacher: "Zoirov ULmas",
     email: "zoirov.ulmas@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "Axborot texnologiyalari",
@@ -13,7 +13,7 @@ const syllabusData = [
   {
     title: "Operatsion Tizimlar",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Abdulaxatov M",
+    teacher: "Abdulaxatov Muzzafar",
     email: "abdulaxatov.muzzafar@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "Axborot texnologiyalari",
@@ -24,7 +24,7 @@ const syllabusData = [
   {
     title: "Elektron hukumat ",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Rajabov  Sh",
+    teacher: "Rajabov  Sherzod",
     email: "rajabov.sherzod@gmail.com",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "Raqamli Iqtisotiyot",
@@ -35,8 +35,8 @@ const syllabusData = [
   {
     title: "Sanoat 4.0 va ijtimoiy soha 5.0",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Abdullayev M",
-    email: "zoirov.ulmas@tsue.uzabdullayev.munis@tsue.uz",
+    teacher: "Abdullayev Munis",
+    email:  "abdullayev.munis@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "abdullayev.munis@tsue.uz",
     course: "4",

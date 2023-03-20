@@ -1,4 +1,4 @@
-const sideData = {
+ const sideData = {
   java: [
     { title: "Kurs haqida", path: "about-course" },
     { title: "Tarkibiy tuzilish", path: "structure" },
