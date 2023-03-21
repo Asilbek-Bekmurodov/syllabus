@@ -1,6 +1,6 @@
 import AboutCourse from "./contents/java/about-course";
 import Assessment from "./contents/java/assessment";
-import Independent from "./contents/java/Independent";
+import Independent from "./contents/java/independent";
 import Internet from "./contents/java/internet";
 import Lecture from "./contents/java/lecture";
 import Literature from "./contents/java/literature";
@@ -13,10 +13,9 @@ export const routeData = [
   { content: < Structure />, path: "structure-java" },
   { content: < Assessment />, path: "baxolash-java" },
   { content: < Test />, path: "test-java" },
-  { content: < Independent />, path: "mustaqil-ish-java" },
+  { content: < Independent/>, path: "mustaqil-ish-java" },
   { content: < Internet />, path: "internet-resusrlar-java" },
   { content: < Literature />, path: "adabiyotlar-java" },
   { content: < Video />, path: "video-java" },
   { content: < Lecture />, path: "maruza-java" },
-
 ];
