@@ -2,7 +2,7 @@ const syllabusData = [
   {
     title: "Java Dasturlash tili",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Zoirov ULmas",
+    teacher: "Zoirov Ulmas",
     email: "zoirov.ulmas@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "Axborot texnologiyalari",
