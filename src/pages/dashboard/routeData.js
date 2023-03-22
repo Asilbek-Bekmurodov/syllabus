@@ -13,10 +13,9 @@ export const routeData = [
   { content: < Structure />, path: "structure-java" },
   { content: < Assessment />, path: "baxolash-java" },
   { content: < Test />, path: "test-java" },
-  { content: < Independent />, path: "mustaqil-ish-java" },
+  { content: < Independent/>, path: "mustaqil-ish-java" },
   { content: < Internet />, path: "internet-resusrlar-java" },
   { content: < Literature />, path: "adabiyotlar-java" },
   { content: < Video />, path: "video-java" },
   { content: < Lecture />, path: "maruza-java" },
-
 ];
