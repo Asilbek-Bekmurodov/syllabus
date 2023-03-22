@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function InternetJava () {
+function InternetOperation() {
   return (
     <div>
       <h1 className={cls.title}>Internet  section </h1>
@@ -11,4 +11,4 @@ function InternetJava () {
     </div>
   );
 }
-export default InternetJava;
+export default InternetOperation;

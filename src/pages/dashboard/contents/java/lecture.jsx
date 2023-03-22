@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function Lecture() {
+function LectureJava() {
   return (
     <div>
       <h1 className={cls.title}>Lecture section </h1>
@@ -11,4 +11,4 @@ function Lecture() {
     </div>
   );
 }
-export default Lecture;
+export default LectureJava;

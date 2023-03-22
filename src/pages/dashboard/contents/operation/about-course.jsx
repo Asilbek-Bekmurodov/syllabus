@@ -3,7 +3,7 @@
 import cls from "./styles.module.scss";
 // style ulash
 
-function AboutCourseJava() {
+function AboutCourseOperation() {
   return (
     <div>
       <h1 className={cls.title}>About course</h1>
@@ -18,4 +18,4 @@ function AboutCourseJava() {
     </div>
   );
 }
-export default AboutCourseJava;
+export default AboutCourseOperation;

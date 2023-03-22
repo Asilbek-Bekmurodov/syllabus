@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function Assessment() {
+function AssessmentJava() {
   return (
     <div>
       <h1 className={cls.title}>Assessment section </h1>
@@ -11,4 +11,4 @@ function Assessment() {
     </div>
   );
 }
-export default Assessment;
+export default AssessmentJava;

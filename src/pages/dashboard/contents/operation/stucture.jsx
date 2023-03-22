@@ -3,7 +3,7 @@
 import cls from "./styles.module.scss";
 // style ulash
 
-function StructureJava() {
+function StructureOperation() {
   return (
     <div>
       <h1 className={cls.title}>Stucture section</h1>
@@ -15,4 +15,4 @@ function StructureJava() {
     </div>
   );
 }
-export default StructureJava;
+export default StructureOperation;

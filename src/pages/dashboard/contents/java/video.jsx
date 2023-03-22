@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function Video() {
+function VideoJava() {
   return (
     <div>
       <h1 className={cls.title}>Video section </h1>
@@ -11,4 +11,4 @@ function Video() {
     </div>
   );
 }
-export default Video;
+export default VideoJava;

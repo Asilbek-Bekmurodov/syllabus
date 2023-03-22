@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function Literature() {
+function LiteratureJava() {
   return (
     <div>
       <h1 className={cls.title}>Literature section </h1>
@@ -11,4 +11,4 @@ function Literature() {
     </div>
   );
 }
-export default Literature;
+export default LiteratureJava;

@@ -1,6 +1,6 @@
 import cls from "./styles.module.scss";
 
-function Independent () {
+function IndependentJava () {
   return (
     <div>
       <h1 className={cls.title}>Independent  section </h1>
@@ -11,4 +11,4 @@ function Independent () {
     </div>
   );
 }
-export default Independent;
+export default IndependentJava;
