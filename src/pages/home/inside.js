@@ -24,7 +24,7 @@ const syllabusData = [
   {
     title: "Elektron hukumat ",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Rajabov  Sherzod",
+    teacher: "Rajabov Sherzod",
     email: "rajabov.sherzod@gmail.com",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "Raqamli Iqtisotiyot",
@@ -33,13 +33,13 @@ const syllabusData = [
     path: 'government'
   },
   {
-    title: "Sanoat 4.0 va ijtimoiy soha 5.0",
+    title: "Biznes Axborot Texnologiyalari",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
     teacher: "Abdullayev Munis",
     email:  "abdullayev.munis@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "abdullayev.munis@tsue.uz",
-    course: "4",
+    course: "3",
     language: "O'zbekcha",
     path: 'social'
   },
