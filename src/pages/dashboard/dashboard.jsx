@@ -23,7 +23,7 @@ function Dashboard() {
           onClick={() => navigate("/")}
           className={cls.icon}
         />{" "}
-         {title} Syllabus
+        Work with {title} in Cloud
       </h3>
       <div className={cls["sidebar-container"]}>
         {/* <ul className={cls.nav_list}>
