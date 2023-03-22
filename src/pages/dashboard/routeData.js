@@ -1,3 +1,21 @@
+import AboutCourseBusiness from "./contents/business/about-course";
+import AssessmentBusiness from "./contents/business/assessment";
+import IndependentBusiness from "./contents/business/independent";
+import InternetBusiness from "./contents/business/internet";
+import LectureBusiness from "./contents/business/lecture";
+import LiteratureBusiness from "./contents/business/literature";
+import StructureBusiness from "./contents/business/stucture";
+import TestBusiness from "./contents/business/test";
+import VideoBusiness from "./contents/business/video";
+import AboutCourseGovernment from "./contents/government/about-course";
+import AssessmentGovernment from "./contents/government/assessment";
+import IndependentGovernment from "./contents/government/Independent";
+import InternetGovernment from "./contents/government/internet";
+import LectureGovernment from "./contents/government/lecture";
+import LiteratureGovernment from "./contents/government/literature";
+import StructureGovernment from "./contents/government/stucture";
+import TestGovernment from "./contents/government/Test";
+import VideoGovernment from "./contents/government/video";
 import AboutCourseJava from "./contents/java/about-course";
 import AssessmentJava from "./contents/java/assessment";
 import IndependentJava from "./contents/java/independent";
@@ -38,4 +56,28 @@ export const routeData = [
   { content: < LiteratureOperation />, path: "adabiyotlar-operatsion" },
   { content: < VideoOperation />, path: "video-operatsion" },
   { content: < LectureOperation />, path: "maruza-operatsion" },
+
+
+  { content: < AboutCourseGovernment />, path: "about-course-government" },
+  { content: < StructureGovernment />, path: "structure-government" },
+  { content: < AssessmentGovernment />, path: "baxolash-government" },
+  { content: < TestGovernment />, path: "test-government" },
+  { content: < IndependentGovernment/>, path: "mustaqil-ish-government" },
+  { content: < InternetGovernment />, path: "internet-resusrlar-government" },
+  { content: < LiteratureGovernment />, path: "adabiyotlar-government" },
+  { content: < VideoGovernment />, path: "video-government" },
+  { content: < LectureGovernment />, path: "maruza-government" },
+
+  { content: < AboutCourseBusiness />, path: "about-course-social" },
+  { content: < StructureBusiness />, path: "structure-social" },
+  { content: < AssessmentBusiness />, path: "baxolash-social" },
+  { content: < TestBusiness />, path: "test-social" },
+  { content: < IndependentBusiness/>, path: "mustaqil-ish-social" },
+  { content: < InternetBusiness />, path: "internet-resusrlar-social" },
+  { content: < LiteratureBusiness />, path: "adabiyotlar-social" },
+  { content: < VideoBusiness />, path: "video-social" },
+  { content: < LectureBusiness />, path: "maruza-social" },
+
+
+
 ];

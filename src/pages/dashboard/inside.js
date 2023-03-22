@@ -80,27 +80,27 @@
     
   ],
   government: [
-    { title: "Kurs haqida", path: "about-course" },
-    { title: "Tarkibiy tuzilish", path: "structure" },
-    { title: "Baxolash", path: "baxolash" },
+    { title: "Kurs haqida", path: "about-course-government" },
+    { title: "Tarkibiy tuzilish", path: "structure-government" },
+    { title: "Baxolash", path: "baxolash-government" },
     {
       title: "Resurslar",
       childrens: [
         {
           title: "Maruza",
-          path: "maruza",
+          path: "maruza-government",
         },
         {
           title: "Video",
-          path: "video",
+          path: "video-government",
         },
         {
           title: "Adabiyotlar",
-          path: "adabiyotlar",
+          path: "adabiyotlar-government",
         },
         {
           title: "Internet resurslari",
-          path: "internet-resusrlar",
+          path: "internet-resusrlar-government",
         },
       ],
     },
@@ -109,37 +109,37 @@
       childrens: [
         {
           title: "Mustaqil ish mavzulari",
-          path: "mustaqil-ish",
+          path: "mustaqil-ish-government",
         },
         {
           title: "Testlar",
-          path: "test",
+          path: "test-government",
         },
       ],
     },
   ],
   social: [
-    { title: "Kurs haqida", path: "about-course" },
-    { title: "Tarkibiy tuzilish", path: "structure" },
-    { title: "Baxolash", path: "baxolash" },
+    { title: "Kurs haqida", path: "about-course-social" },
+    { title: "Tarkibiy tuzilish", path: "structure-social" },
+    { title: "Baxolash", path: "baxolash-social" },
     {
       title: "Resurslar",
       childrens: [
         {
           title: "Maruza",
-          path: "maruza",
+          path: "maruza-social",
         },
         {
           title: "Video",
-          path: "video",
+          path: "video-social",
         },
         {
           title: "Adabiyotlar",
-          path: "adabiyotlar",
+          path: "adabiyotlar-social",
         },
         {
           title: "Internet resurslari",
-          path: "internet-resusrlar",
+          path: "internet-resusrlar-social",
         },
       ],
     },
@@ -148,11 +148,11 @@
       childrens: [
         {
           title: "Mustaqil ish mavzulari",
-          path: "mustaqil-ish",
+          path: "mustaqil-ish-social",
         },
         {
           title: "Testlar",
-          path: "test",
+          path: "test-social",
         },
       ],
     },
