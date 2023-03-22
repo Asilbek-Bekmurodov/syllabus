@@ -40,27 +40,27 @@
   ],
 
   operation: [
-    { title: "Kurs haqida", path: "about-course" },
-    { title: "Tarkibiy tuzilish", path: "structure" },
-    { title: "Baxolash", path: "baxolash" },
+    { title: "Kurs haqida", path: "about-course-operatsion" },
+    { title: "Tarkibiy tuzilish", path: "structure-operatsion" },
+    { title: "Baxolash", path: "baxolash-operatsion" },
     {
       title: "Resurslar",
       childrens: [
         {
           title: "Maruza",
-          path: "maruza",
+          path: "maruza-operatsion",
         },
         {
           title: "Video",
-          path: "video",
+          path: "video-operatsion",
         },
         {
           title: "Adabiyotlar",
-          path: "adabiyotlar",
+          path: "adabiyotlar-operatsion",
         },
         {
           title: "Internet resurslari",
-          path: "internet-resusrlar",
+          path: "internet-resusrlar-operatsion",
         },
       ],
     },
@@ -69,11 +69,11 @@
       childrens: [
         {
           title: "Mustaqil ish mavzulari",
-          path: "mustaqil-ish",
+          path: "mustaqil-ish-operatsion",
         },
         {
           title: "Testlar",
-          path: "test",
+          path: "test-operatsion",
         },
       ],
     },
