@@ -13,7 +13,7 @@ function AboutCourseJava() {
         Sequi laboriosam porro nobis tenetur libero quidem placeat vero minima
         quis quisquam natus tempora voluptate sunt quia quae, blanditiis quasi
         dolore deleniti nihil iure? Recusandae enim iure consectetur delectus
-        beatae!java
+        beatae!javaaaaaaaaaaaaaaa
       </p>
     </div>
   );
