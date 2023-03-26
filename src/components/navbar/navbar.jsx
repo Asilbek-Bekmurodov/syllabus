@@ -1,7 +1,6 @@
 import Logo from "../../assets/images/logo.jpg";
 import Search from "../../assets/icons/search-icon.39584090 (1).svg";
 import cls from "./navbar.module.scss";
-import cx from "classnames";
 import { NavLink, useNavigate } from "react-router-dom";
 
 const links = [

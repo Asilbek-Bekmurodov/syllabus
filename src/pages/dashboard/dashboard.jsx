@@ -14,7 +14,7 @@ function Dashboard() {
   useEffect(() => {
     window.scrollTo(0, 0);
     syllabusData.filter((item) => item.path === type && setTitle(item.title));
-  }, []);
+  }, [type]);
   return (
     <div className={cls.wrapper}>
       <Navbar />
