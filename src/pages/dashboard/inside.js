@@ -1,6 +1,6 @@
 const sideData = {
   java: [
-    { title: "Kurs haqida", path: "kurs-haqida-java" },
+    { title: "Kurs haqida", path: "/dashboard/java/" },
     { title: "Tarkibiy tuzilish", path: "structure-java" },
     { title: "Baxolash", path: "baxolash-java" },
     {
