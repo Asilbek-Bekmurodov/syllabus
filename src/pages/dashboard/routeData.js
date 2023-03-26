@@ -23,7 +23,7 @@ import InternetJava from "./contents/java/internet";
 import LectureJava from "./contents/java/lecture";
 import LiteratureJava from "./contents/java/literature";
 import StructureJava from "./contents/java/stucture";
-import TestJava from "./contents/java/test";
+import TestJava from "./contents/java/test-java";
 import VideoJava from "./contents/java/video";
 import AboutCourseOperation from "./contents/operation/about-course";
 import AssessmentOperation from "./contents/operation/assessment";
@@ -35,49 +35,44 @@ import StructureOperation from "./contents/operation/stucture";
 import TestOperation from "./contents/operation/test";
 import VideoOperation from "./contents/operation/video";
 
-
 export const routeData = [
-  { content: < AboutCourseJava />, path: "about-course-java" },
-  { content: < StructureJava />, path: "structure-java" },
-  { content: < AssessmentJava />, path: "baxolash-java" },
-  { content: < TestJava />, path: "test-java" },
-  { content: < IndependentJava/>, path: "mustaqil-ish-java" },
-  { content: < InternetJava />, path: "internet-resusrlar-java" },
-  { content: < LiteratureJava />, path: "adabiyotlar-java" },
-  { content: < VideoJava />, path: "video-java" },
-  { content: < LectureJava />, path: "maruza-java" },
-  
-  { content: < AboutCourseOperation />, path: "about-course-operatsion" },
-  { content: < StructureOperation />, path: "structure-operatsion" },
-  { content: < AssessmentOperation />, path: "baxolash-operatsion" },
-  { content: < TestOperation />, path: "test-operatsion" },
-  { content: < IndependentOperation/>, path: "mustaqil-ish-operatsion" },
-  { content: < InternetOperation />, path: "internet-resusrlar-operatsion" },
-  { content: < LiteratureOperation />, path: "adabiyotlar-operatsion" },
-  { content: < VideoOperation />, path: "video-operatsion" },
-  { content: < LectureOperation />, path: "maruza-operatsion" },
+  { content: <AboutCourseJava />, path: "about-course-java" },
+  { content: <StructureJava />, path: "structure-java" },
+  { content: <AssessmentJava />, path: "baxolash-java" },
+  { content: <TestJava />, path: "test-java" },
+  { content: <IndependentJava />, path: "mustaqil-ish-java" },
+  { content: <InternetJava />, path: "internet-resusrlar-java" },
+  { content: <LiteratureJava />, path: "adabiyotlar-java" },
+  { content: <VideoJava />, path: "video-java" },
+  { content: <LectureJava />, path: "maruza-java" },
 
+  { content: <AboutCourseOperation />, path: "about-course-operatsion" },
+  { content: <StructureOperation />, path: "structure-operatsion" },
+  { content: <AssessmentOperation />, path: "baxolash-operatsion" },
+  { content: <TestOperation />, path: "test-operatsion" },
+  { content: <IndependentOperation />, path: "mustaqil-ish-operatsion" },
+  { content: <InternetOperation />, path: "internet-resusrlar-operatsion" },
+  { content: <LiteratureOperation />, path: "adabiyotlar-operatsion" },
+  { content: <VideoOperation />, path: "video-operatsion" },
+  { content: <LectureOperation />, path: "maruza-operatsion" },
 
-  { content: < AboutCourseGovernment />, path: "about-course-government" },
-  { content: < StructureGovernment />, path: "structure-government" },
-  { content: < AssessmentGovernment />, path: "baxolash-government" },
-  { content: < TestGovernment />, path: "test-government" },
-  { content: < IndependentGovernment/>, path: "mustaqil-ish-government" },
-  { content: < InternetGovernment />, path: "internet-resusrlar-government" },
-  { content: < LiteratureGovernment />, path: "adabiyotlar-government" },
-  { content: < VideoGovernment />, path: "video-government" },
-  { content: < LectureGovernment />, path: "maruza-government" },
+  { content: <AboutCourseGovernment />, path: "about-course-government" },
+  { content: <StructureGovernment />, path: "structure-government" },
+  { content: <AssessmentGovernment />, path: "baxolash-government" },
+  { content: <TestGovernment />, path: "test-government" },
+  { content: <IndependentGovernment />, path: "mustaqil-ish-government" },
+  { content: <InternetGovernment />, path: "internet-resusrlar-government" },
+  { content: <LiteratureGovernment />, path: "adabiyotlar-government" },
+  { content: <VideoGovernment />, path: "video-government" },
+  { content: <LectureGovernment />, path: "maruza-government" },
 
-  { content: < AboutCourseBusiness />, path: "about-course-social" },
-  { content: < StructureBusiness />, path: "structure-social" },
-  { content: < AssessmentBusiness />, path: "baxolash-social" },
-  { content: < TestBusiness />, path: "test-social" },
-  { content: < IndependentBusiness/>, path: "mustaqil-ish-social" },
-  { content: < InternetBusiness />, path: "internet-resusrlar-social" },
-  { content: < LiteratureBusiness />, path: "adabiyotlar-social" },
-  { content: < VideoBusiness />, path: "video-social" },
-  { content: < LectureBusiness />, path: "maruza-social" },
-
-
-
+  { content: <AboutCourseBusiness />, path: "about-course-social" },
+  { content: <StructureBusiness />, path: "structure-social" },
+  { content: <AssessmentBusiness />, path: "baxolash-social" },
+  { content: <TestBusiness />, path: "test-social" },
+  { content: <IndependentBusiness />, path: "mustaqil-ish-social" },
+  { content: <InternetBusiness />, path: "internet-resusrlar-social" },
+  { content: <LiteratureBusiness />, path: "adabiyotlar-social" },
+  { content: <VideoBusiness />, path: "video-social" },
+  { content: <LectureBusiness />, path: "maruza-social" },
 ];
