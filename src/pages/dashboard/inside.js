@@ -1,6 +1,6 @@
- const sideData = {
+const sideData = {
   java: [
-    { title: "Kurs haqida", path: "about-course-java" },
+    { title: "Kurs haqida", path: "/dashboard/java/" },
     { title: "Tarkibiy tuzilish", path: "structure-java" },
     { title: "Baxolash", path: "baxolash-java" },
     {
@@ -40,7 +40,7 @@
   ],
 
   operation: [
-    { title: "Kurs haqida", path: "about-course-operatsion" },
+    { title: "Kurs haqida", path: "/dashboard/operation/" },
     { title: "Tarkibiy tuzilish", path: "structure-operatsion" },
     { title: "Baxolash", path: "baxolash-operatsion" },
     {
@@ -77,10 +77,9 @@
         },
       ],
     },
-    
   ],
   government: [
-    { title: "Kurs haqida", path: "about-course-government" },
+    { title: "Kurs haqida", path: "/dashboard/government/" },
     { title: "Tarkibiy tuzilish", path: "structure-government" },
     { title: "Baxolash", path: "baxolash-government" },
     {
@@ -119,7 +118,7 @@
     },
   ],
   social: [
-    { title: "Kurs haqida", path: "about-course-social" },
+    { title: "Kurs haqida", path: "/dashboard/social/" },
     { title: "Tarkibiy tuzilish", path: "structure-social" },
     { title: "Baxolash", path: "baxolash-social" },
     {
