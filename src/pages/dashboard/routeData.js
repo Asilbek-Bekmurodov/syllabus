@@ -36,7 +36,7 @@ import TestOperation from "./contents/operation/test";
 import VideoOperation from "./contents/operation/video";
 
 export const routeData = [
-  { content: <AboutCourseJava />, path: "/" },
+  { content: <AboutCourseJava />, path: "kurs-haqida-java" },
   { content: <StructureJava />, path: "structure-java" },
   { content: <AssessmentJava />, path: "baxolash-java" },
   { content: <TestJava />, path: "test-java" },
