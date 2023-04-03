@@ -8,9 +8,11 @@ export default function Sidebar() {
 
   return (
     <div className="sidebar">
-      {sideData[type].map((item, index) => (
-        <SidebarItem key={index} item={item} />
-      ))}
+      <div>
+        {sideData[type].map((item, index) => (
+          <SidebarItem key={index} item={item} />
+        ))}
+      </div>
     </div>
   );
 }

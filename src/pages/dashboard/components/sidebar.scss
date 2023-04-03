@@ -3,6 +3,8 @@
   background-color: #f1f0f0;
   height: 100%;
   overflow: auto;
+  position: sticky;
+  top: 20px;
 }
 
 .sidebar-item {
@@ -57,4 +59,3 @@
 .active-nav {
   color: red;
 }
-

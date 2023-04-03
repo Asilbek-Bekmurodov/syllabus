@@ -17,10 +17,10 @@
     max-width: 1200px;
     margin: auto;
     padding: 0 30px 50px;
-    display: grid;
+    display: flex;
     grid-template-columns: 260px 1fr;
     ul {
-      list-style: none; 
+      list-style: none;
       li {
         text-decoration: none;
         border-bottom: 1px solid #c2c2c2;
@@ -41,8 +41,6 @@
         .info_title {
           margin-bottom: 15px;
         }
-
-       
       }
     }
   }
