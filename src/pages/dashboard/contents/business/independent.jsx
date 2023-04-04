@@ -1,7 +1,7 @@
 import cls from "./styles.module.scss";
 
 function IndependentBusiness() {
-    let htmlAsString =   '                <p style="line-height: 1.2; text-indent: 28.35pt; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">VI. Mustaqil ta&rsquo;lim uchun tavsiya etiladigan mavzular:</span></strong></p>\n' +
+    let htmlAsString = '                <p style="line-height: 1.2; text-indent: 28.35pt; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">VI. Mustaqil ta&rsquo;lim uchun tavsiya etiladigan mavzular:</span></strong></p>\n' +
         '          <ol style="margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;">\n' +
         '          <li style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000; margin-left: 10.35pt;">\n' +
         '          <p style="line-height: 1.2; margin-right: 6.9pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 13pt;">Ma&rsquo;lumotlarni tahlil qilish va modellashtirish.</span></p>\n' +
@@ -75,7 +75,7 @@ function IndependentBusiness() {
         '          </ol>'
     return (
         <div>
-            <h1 className={cls.title}>Independent  section </h1>
+            <h1 className={cls.title}>Independent section </h1>
             <div dangerouslySetInnerHTML={{__html: htmlAsString}}>
             </div>
         </div>
