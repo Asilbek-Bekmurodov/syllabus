@@ -98,7 +98,7 @@ function AboutCourseOperation() {
         '        <p><br /><br /><br /></p>'
     return (
         <div>
-            <h1 className={cls.title}>About course</h1>
+            <h2 className={cls.title}>About course</h2>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
 

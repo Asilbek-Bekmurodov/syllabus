@@ -41,7 +41,7 @@ function InternetOperation() {
     return (
 
         <div>
-            <h1 className={cls.title}>Internet section </h1>
+            <h2 className={cls.title}>Internet section </h2>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

@@ -121,7 +121,7 @@ function TestOperation() {
         '            <p style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-size: 13pt; font-family: Calibri, sans-serif; color: #000000;">ANSWER: A</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Test section </h1>
+            <h2 className={cls.title}>Test section </h2>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

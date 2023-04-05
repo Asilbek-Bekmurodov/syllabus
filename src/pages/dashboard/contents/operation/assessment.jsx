@@ -154,7 +154,7 @@ function AssessmentOperation() {
         '          <p style="line-height: 1.295; text-indent: 35.45pt; text-align: justify; margin-top: 0pt; margin-bottom: 8pt;"><strong><em><span style="font-size: 13pt; font-family: Calibri, sans-serif; color: #000000;">Eslatma: </span></em></strong><em><span style="font-size: 13pt; font-family: Calibri, sans-serif; color: #000000;">dars mashg&lsquo;ultotlaridagi ishtiroki, joriy nazorat va oraliq nazoratlar uchun ajratilgan jami ballar (50 ball) ning kamida 60 foizini to&lsquo;play olmagan talabaning yakuniy nazoratga kirishiga ruxsat berilmaydi.</span></em></p>'
     return (
         <div>
-            <h1 className={cls.title}>Assessment section </h1>
+            <h2 className={cls.title}>Assessment section </h2>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

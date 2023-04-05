@@ -302,7 +302,7 @@ function StructureOperation() {
         '      </div>'
     return (
         <div>
-            <h1 className={cls.title}>Stucture section</h1>
+            <h2 className={cls.title}>Stucture section</h2>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>
