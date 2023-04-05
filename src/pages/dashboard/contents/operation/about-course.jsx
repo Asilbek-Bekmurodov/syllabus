@@ -1,6 +1,7 @@
 // qisqa kalit rfce
 
 import cls from "./styles.module.scss";
+import cls2 from "./styles.module.scss";
 
 // style ulash
 
@@ -99,7 +100,7 @@ function AboutCourseOperation() {
     return (
         <div>
 
-            <div className={cls.courseTitle}>
+            <div className={cls2.courseTitle}>
                 <h2 className={cls.title}>About course</h2>
             </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
