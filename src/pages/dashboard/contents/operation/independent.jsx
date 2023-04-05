@@ -1,7 +1,7 @@
 import cls from "./styles.module.scss";
 
 function IndependentOperation() {
-    let str = '              <p style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><strong><span style="font-size: 18pt; font-family: Calibri, sans-serif; color: #000000;">Mustaqatil ish mavzulari</span></strong></p>\n' +
+    let str = '              <p style="line-height: 1.295; margin-top: 0pt; margin-bottom: 8pt;"><strong><span style="font-size: 18pt; font-family: Calibri, sans-serif; color: #000000;">Mustaqatil ish mavzulari1</span></strong></p>\n' +
         '        <p style="line-height: 1.295; text-indent: 28.35pt; text-align: justify; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-size: 13pt; font-family: Calibri, sans-serif; color: #000000;">Mustaqil ta&rsquo;lim uchun tavsiya etiladigan mavzular:</span></p>\n' +
         '        <ol style="margin-top: 0px; margin-bottom: 0px; padding-inline-start: 48px;">\n' +
         '        <li style="font-size: 13pt; font-family: Calibri, sans-serif; color: #000000; margin-left: 10.35pt;">\n' +
