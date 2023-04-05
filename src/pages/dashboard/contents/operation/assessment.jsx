@@ -1,5 +1,4 @@
 import cls from "./styles.module.scss";
-import cls2 from "./styles.module.scss";
 
 function AssessmentOperation() {
     let str = '    <p>&nbsp;</p>\n' +
