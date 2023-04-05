@@ -26,7 +26,9 @@ function LiteratureJava() {
         '              <p><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">&nbsp;Joyce Farrell. Java Programming (2019) </span><em><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">(Ushbu kitob universitet ARMda PDF variantda mavjud).</span></em></p>'
     return (
         <div>
-            <h1 className={cls.title}>Literature section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Literature section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

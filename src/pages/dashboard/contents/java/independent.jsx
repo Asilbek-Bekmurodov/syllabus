@@ -38,7 +38,9 @@ function IndependentJava() {
         '          <p style="line-height: 1.295; text-indent: 35.45pt; text-align: justify; margin-top: 0pt; margin-bottom: 8pt;"><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">Mustaqil o&lsquo;zlashtiriladigan mavzular bo&lsquo;yicha talabalar tomonidan loyiha ishi, esse, tezis yoki&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;ilmiy maqola yozish, referatlar tayyorlash va uni taqdimot qilish tavsiya etiladi.</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Independent section </h1>
+        <div className={cls.courseTitle}>
+            <h2 className={cls.title}>Independent section </h2>
+        </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

@@ -157,7 +157,10 @@ function AssessmentJava() {
         '          <p style="line-height: 1.295; text-indent: 35.45pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><strong><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">X.</span></strong><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">&nbsp;Ushbu sillabus Toshkent davlat iqtisodiyot universiteti kengashining 2022 yil &laquo;___&raquo; ______ dagi ____-sonli bayonnomasi bilan ma&rsquo;qullangan.</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Assessment section </h1>
+
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Assessment section  </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>
