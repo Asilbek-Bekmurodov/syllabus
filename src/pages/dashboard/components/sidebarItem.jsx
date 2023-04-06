@@ -21,7 +21,16 @@ export default function SidebarItem({ item }) {
     );
   } else {
     return (
-      <NavLink to={item.path || "#"} className="sidebar-item plain">
+      <NavLink
+        to={item.path || "#"}
+        className="sidebar-item plain"
+        style={({ isActive, isPending }) => {
+          return {
+            fontWeight: isActive ? "bold" : "",
+            color: isPending ? "red" : "black",
+          };
+        }}
+      >
         {item.icon && <i className={item.icon}></i>}
         {item.title}
       </NavLink>

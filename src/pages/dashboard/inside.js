@@ -1,6 +1,6 @@
 const sideData = {
   java: [
-    { title: "Kurs haqida", path: "/dashboard/java/" },
+    { title: "Kurs haqida", path: "about-java" },
     { title: "Tarkibiy tuzilish", path: "structure-java" },
     { title: "Baxolash", path: "baxolash-java" },
     {
@@ -40,7 +40,7 @@ const sideData = {
   ],
 
   operation: [
-    { title: "Kurs haqida", path: "/dashboard/operation/" },
+    { title: "Kurs haqida", path: "about-operation" },
     { title: "Tarkibiy tuzilish", path: "structure-operatsion" },
     { title: "Baxolash", path: "baxolash-operatsion" },
     {
@@ -79,7 +79,7 @@ const sideData = {
     },
   ],
   government: [
-    { title: "Kurs haqida", path: "/dashboard/government/" },
+    { title: "Kurs haqida", path: "about-government" },
     { title: "Tarkibiy tuzilish", path: "structure-government" },
     { title: "Baxolash", path: "baxolash-government" },
     {
@@ -118,7 +118,7 @@ const sideData = {
     },
   ],
   social: [
-    { title: "Kurs haqida", path: "/dashboard/social/" },
+    { title: "Kurs haqida", path: "about-social" },
     { title: "Tarkibiy tuzilish", path: "structure-social" },
     { title: "Baxolash", path: "baxolash-social" },
     {

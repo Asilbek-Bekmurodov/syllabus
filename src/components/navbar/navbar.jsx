@@ -31,7 +31,7 @@ function Navbar() {
         <ul className={cls.items}>
           {links.map(({ title, path }, idx) => (
             <li key={idx} className={cls.item}>
-              <NavLink className={cls.link} to={path}>
+              <NavLink  className={cls.link} to={path}>
                 {title}
               </NavLink>
             </li>

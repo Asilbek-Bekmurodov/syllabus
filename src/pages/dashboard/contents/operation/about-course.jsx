@@ -101,7 +101,7 @@ function AboutCourseOperation() {
         <div>
 
             <div className={cls.courseTitle}>
-                <h2 className={cls.title}>About course</h2>
+                <h2 className={cls.title}>About operation</h2>
             </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 

@@ -33,7 +33,7 @@ function Search() {
           {data.map(({ sillabus, otm, teacher, kafedra, email, path }, idx) => (
             <div
               key={idx}
-              onClick={() => navigate(`/dashboard/${path}`)}
+              onClick={() => navigate(`/dashboard/${path}/about-java`)}
               className={cls.result}
             >
               <h4>{sillabus}</h4>

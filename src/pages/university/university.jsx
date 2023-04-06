@@ -5,33 +5,34 @@ import cls from "./university.module.scss";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import { MdManageSearch } from "react-icons/md";
 import { CiFilter } from "react-icons/ci";
+import syllabusData from "../home/inside";
 
-const data = [
-  {
-    sillabus: "Java dasturlash tili",
-    otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Zoirov U",
-    email: "zoirov.ulmas@gmail.com",
-    kafedra: "Raqamli iqisodiyot",
-    path: "java",
-  },
-  {
-    sillabus: "Java dasturlash tili",
-    otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Zoirov U",
-    email: "zoirov.ulmas@gmail.com",
-    kafedra: "Raqamli iqisodiyot",
-    path: "java",
-  },
-  {
-    sillabus: "Java dasturlash tili",
-    otm: "Toshkent Davlat Iqtisodiyot Universiteti",
-    teacher: "Zoirov U",
-    email: "zoirov.ulmas@gmail.com",
-    kafedra: "Raqamli iqisodiyot",
-    path: "java",
-  },
-];
+// const data = [
+//   {
+//     sillabus: "Java dasturlash tili",
+//     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
+//     teacher: "Zoirov U",
+//     email: "zoirov.ulmas@gmail.com",
+//     kafedra: "Raqamli iqisodiyot",
+//     path: "java",
+//   },
+//   {
+//     sillabus: "Java dasturlash tili",
+//     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
+//     teacher: "Zoirov U",
+//     email: "zoirov.ulmas@gmail.com",
+//     kafedra: "Raqamli iqisodiyot",
+//     path: "java",
+//   },
+//   {
+//     sillabus: "Java dasturlash tili",
+//     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
+//     teacher: "Zoirov U",
+//     email: "zoirov.ulmas@gmail.com",
+//     kafedra: "Raqamli iqisodiyot",
+//     path: "java",
+//   },
+// ];
 
 function University() {
   const navigate = useNavigate();
@@ -72,28 +73,30 @@ function University() {
             <CiFilter size={24} /> Qidiruv filtri
           </button>
         </form>
-        <h3>Qidiruv natijasi: 3</h3>
+        <h3>Qidiruv natijasi: 4</h3>
         <div className={cls.results}>
-          {data.map(({ sillabus, otm, teacher, kafedra, email, path }) => (
-            <div
-              onClick={() => navigate(`/dashboard/${path}`)}
-              className={cls.result}
-            >
-              <h4>{sillabus}</h4>
-              <p className={cls.subtitle}>
-                <b>OTM :</b> {otm}
-              </p>
-              <p className={cls.subtitle}>
-                <b>O'qituvchi :</b> {teacher}
-              </p>
-              <p className={cls.subtitle}>
-                <b>Email :</b> {email}
-              </p>
-              <p className={cls.subtitle}>
-                <b>Kafedra :</b> {kafedra}
-              </p>
-            </div>
-          ))}
+          {syllabusData.map(
+            ({ title, otm, teacher, kafedra, email, path, childPath }) => (
+              <div
+                onClick={() => navigate(`/dashboard/${path}/${childPath}`)}
+                className={cls.result}
+              >
+                <h4>{title}</h4>
+                <p className={cls.subtitle}>
+                  <b>OTM :</b> {otm}
+                </p>
+                <p className={cls.subtitle}>
+                  <b>O'qituvchi :</b> {teacher}
+                </p>
+                <p className={cls.subtitle}>
+                  <b>Email :</b> {email}
+                </p>
+                <p className={cls.subtitle}>
+                  <b>Kafedra :</b> {kafedra}
+                </p>
+              </div>
+            )
+          )}
         </div>
       </div>
       <Footer />

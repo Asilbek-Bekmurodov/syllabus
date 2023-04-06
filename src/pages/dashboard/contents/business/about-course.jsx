@@ -95,7 +95,7 @@ function AboutCourseBusiness() {
     return (
         <div>
             <div className={cls.courseTitle}>
-                <h2 className={cls.title}>About course</h2>
+                <h2 className={cls.title}>About business</h2>
             </div>
             <div dangerouslySetInnerHTML={{__html: srt}}></div>
         </div>

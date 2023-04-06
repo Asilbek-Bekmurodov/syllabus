@@ -71,12 +71,13 @@ function Home() {
                   course,
                   language,
                   path,
+                  childPath,
                 },
                 idx
               ) => (
                 <div
                   key={idx}
-                  onClick={() => navigate(`/dashboard/${path}`)}
+                  onClick={() => navigate(`/dashboard/${path}/${childPath}`)}
                   className={cls.card}
                 >
                   <h4 className={cls.title}>{title}</h4>

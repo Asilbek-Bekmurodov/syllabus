@@ -36,7 +36,7 @@ import TestOperation from "./contents/operation/test";
 import VideoOperation from "./contents/operation/video";
 
 export const routeData = [
-  { content: <AboutCourseJava />, path: "/" },
+  { content: <AboutCourseJava />, path: "about-java" },
   { content: <StructureJava />, path: "structure-java" },
   { content: <AssessmentJava />, path: "baxolash-java" },
   { content: <TestJava />, path: "test-java" },
@@ -46,7 +46,7 @@ export const routeData = [
   { content: <VideoJava />, path: "video-java" },
   { content: <LectureJava />, path: "maruza-java" },
 
-  { content: <AboutCourseOperation />, path: "/" },
+  { content: <AboutCourseOperation />, path: "about-operation" },
   { content: <StructureOperation />, path: "structure-operatsion" },
   { content: <AssessmentOperation />, path: "baxolash-operatsion" },
   { content: <TestOperation />, path: "test-operatsion" },
@@ -56,7 +56,7 @@ export const routeData = [
   { content: <VideoOperation />, path: "video-operatsion" },
   { content: <LectureOperation />, path: "maruza-operatsion" },
 
-  { content: <AboutCourseGovernment />, path: "/" },
+  { content: <AboutCourseGovernment />, path: "about-government" },
   { content: <StructureGovernment />, path: "structure-government" },
   { content: <AssessmentGovernment />, path: "baxolash-government" },
   { content: <TestGovernment />, path: "test-government" },
@@ -66,7 +66,7 @@ export const routeData = [
   { content: <VideoGovernment />, path: "video-government" },
   { content: <LectureGovernment />, path: "maruza-government" },
 
-  { content: <AboutCourseBusiness />, path: "/" },
+  { content: <AboutCourseBusiness />, path: "about-social" },
   { content: <StructureBusiness />, path: "structure-social" },
   { content: <AssessmentBusiness />, path: "baxolash-social" },
   { content: <TestBusiness />, path: "test-social" },

@@ -8,7 +8,8 @@ const syllabusData = [
     direction: "Axborot texnologiyalari",
     course: "3",
     language: "O'zbekcha",
-    path: 'java'
+    path: "java",
+    childPath: "about-java",
   },
   {
     title: "Operatsion Tizimlar",
@@ -19,7 +20,8 @@ const syllabusData = [
     direction: "Axborot texnologiyalari",
     course: "3",
     language: "O'zbekcha",
-    path: 'operation'
+    path: "operation",
+    childPath: "about-operation",
   },
   {
     title: "Elektron hukumat ",
@@ -30,18 +32,20 @@ const syllabusData = [
     direction: "Raqamli Iqtisotiyot",
     course: "3",
     language: "Ingliz",
-    path: 'government'
+    path: "government",
+    childPath: "about-government",
   },
   {
     title: "Biznes Axborot Texnologiyalari",
     otm: "Toshkent Davlat Iqtisodiyot Universiteti",
     teacher: "Abdullayev Munis",
-    email:  "abdullayev.munis@tsue.uz",
+    email: "abdullayev.munis@tsue.uz",
     kafedra: "Raqamli iqtisodiyot va Axborot Texnologiyalari",
     direction: "abdullayev.munis@tsue.uz",
     course: "3",
     language: "O'zbekcha",
-    path: 'social'
+    path: "social",
+    childPath: "about-social",
   },
 ];
 
