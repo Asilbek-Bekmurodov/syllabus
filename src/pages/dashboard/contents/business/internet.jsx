@@ -12,7 +12,9 @@ function InternetBusiness() {
         '        <p style="line-height: 1.2; text-indent: 28.35pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">8. </span><a style="text-decoration: none;" href="http://www.w3schools.com"><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">www.w3schools.com</span></a><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;"> &ndash; Masofadan ta&rsquo;lim olish portali.</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Internet section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Internet section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

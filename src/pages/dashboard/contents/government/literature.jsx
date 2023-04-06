@@ -17,7 +17,9 @@ function LiteratureGovernment() {
         '          <p><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">4. S.S. Gulyamov, R.H. Ergashev, S.N. Khamrayeva. Digital economy (study guide), T., 2020. -377 p. </span><em><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">(This book is available in PDF version at the university IRC)</span></em><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">.</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Literature section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Literature section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

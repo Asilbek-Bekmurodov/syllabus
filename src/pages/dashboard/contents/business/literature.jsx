@@ -20,7 +20,9 @@ function LiteratureBusiness() {
     return (
 
         <div>
-            <h1 className={cls.title}>Literature section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Literature section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

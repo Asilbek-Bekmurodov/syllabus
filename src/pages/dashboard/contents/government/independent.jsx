@@ -34,7 +34,9 @@ function IndependentGovernment() {
         '          <p style="line-height: 1.2; text-indent: 28.35pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">It is recommended to prepare and defend presentations by students on independent learning topics.</span></p>'
     return (
         <div>
-            <h1 className={cls.title}>Independent section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Independent section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

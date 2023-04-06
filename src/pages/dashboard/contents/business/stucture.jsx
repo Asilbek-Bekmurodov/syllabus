@@ -301,7 +301,9 @@ function StructureBusiness() {
         '</div>'
     return (
         <div>
-            <h1 className={cls.title}>Stucture section</h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Structure section</h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

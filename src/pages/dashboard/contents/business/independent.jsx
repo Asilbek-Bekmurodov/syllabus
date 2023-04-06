@@ -75,7 +75,9 @@ function IndependentBusiness() {
         '          </ol>'
     return (
         <div>
-            <h1 className={cls.title}>Independent section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Independent section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: htmlAsString}}>
             </div>
         </div>

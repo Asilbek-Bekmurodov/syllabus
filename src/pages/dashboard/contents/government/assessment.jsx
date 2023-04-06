@@ -157,7 +157,9 @@ function AssessmentGovernment() {
         '          <p style="line-height: 1.2; text-indent: 35.45pt; text-align: justify; margin-top: 0pt; margin-bottom: 0pt;"><strong><em><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">Note: </span></em></strong><em><span style="font-size: 13pt; font-family: \'Times New Roman\'; color: #000000;">a student who fails to collect at least 60% of the total points (50 points) allocated for participation in class activities, current control, and mid-term control will not be allowed to enter the final control.</span></em></p>'
     return (
         <div>
-            <h1 className={cls.title}>Assessment section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Assessment section  </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>

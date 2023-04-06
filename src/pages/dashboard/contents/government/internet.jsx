@@ -30,7 +30,9 @@ function InternetGovernment() {
         '          </ol>'
     return (
         <div>
-            <h1 className={cls.title}>Internet section </h1>
+            <div className={cls.courseTitle}>
+                <h2 className={cls.title}>Internet section </h2>
+            </div>
             <div dangerouslySetInnerHTML={{__html: str}}></div>
 
         </div>
